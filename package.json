@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.8",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "nanoid": "^3.3.4",
+    "sql-query": "^0.1.27",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.2.4"
+  }
+}

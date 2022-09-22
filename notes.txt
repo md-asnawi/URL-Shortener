@@ -1,0 +1,24 @@
+Packages:
+- express for routing
+- config to manage config files
+- nanoid v3 for generating short code
+- valid-url to verify url
+- dotenv to retrieve environment variables in .env file
+- nodemon is used for node to restart app when changes are made (development purposes, not for production)
+- jest & supertest for testing (development purposes, not for production)
+- cors
+
+Others:
+- mysql does not support authentication method involving encryption and handshakes so mysql2 is used instead, although it is a forked version of mysql 
+- source: https://stackoverflow.com/questions/50093144/mysql-8-0-client-does-not-support-authentication-protocol-requested-by-server
+- nanoid v4 has issues using require. Downgraded to v3 instead
+- source: https://stackoverflow.com/questions/72568855/how-to-fix-code-err-require-esm-const-nanoid-requirenanoid
+- nanoid generates code of length 21 to minimize collision
+- source: https://github.com/ai/nanoid/
+
+References:
+- main app: 2 nodejs express mysql youtube vids
+- unit testing: nodejs express unit test
+
+
+
