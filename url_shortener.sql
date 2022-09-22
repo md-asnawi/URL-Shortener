@@ -20,7 +20,3 @@ CREATE TABLE `url` (
   `short_url` varchar(50) DEFAULT NULL,
   `long_url` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-INSERT INTO `url` (`url_code`, `short_url`, `long_url`) VALUES
-('url_code_1', 'short_url_1', 'http://www.google.com'),
-('url_code_2', 'short_url_2', 'http://www.youtube.com');

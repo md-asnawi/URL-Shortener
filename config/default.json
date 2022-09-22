@@ -1,6 +1,6 @@
 {
     "baseUrl": "http://asnawi-url-shortener.herokuapp.com",
-    "host": "asnawi-url-shortener.herokuapp.com",
-    "user": "root",
-    "database": "url_shortener"
+    "host": "us-cdbr-east-06.cleardb.net",
+    "user": "b54a338f570055",
+    "database": "heroku_c65b18beeb62fe2"
 }
