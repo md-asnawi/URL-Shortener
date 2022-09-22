@@ -22,5 +22,5 @@ CREATE TABLE `url` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `url` (`url_code`, `short_url`, `long_url`) VALUES
-('url_code_1', 'short_url_1', 'http://www.google.com'),
-('url_code_2', 'short_url_2', 'http://www.youtube.com');
+('0FE5UKmDooGu9xZIswOig','http://localhost:3000/0FE5UKmDooGu9xZIswOig','http://www.instagram.com'),
+('kS4VVHPZZ1hKbGVGtGeGT','http://localhost:3000/kS4VVHPZZ1hKbGVGtGeGT','http://www.twitter.com');
