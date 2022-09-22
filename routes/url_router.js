@@ -27,7 +27,7 @@ router.get('/', async (req, res) => {
                         .from('url')
                         .where({ long_url: longUrl })
                         .build();
-        let con = await connectDB();
+        let con = connectDB();
         con.query(sqlQuery, function(error, result) {
             if (error) {
                 console.log(error);
@@ -77,7 +77,7 @@ router.post('/', async (req, res) => {
                             long_url: longUrl
                         })
                         .build();
-        let con = await connectDB();
+        let con = connectDB();
         con.query(sqlInsert, function(error, result) {
             if (error) {
                 console.log(error);

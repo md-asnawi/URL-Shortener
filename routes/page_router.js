@@ -12,7 +12,7 @@ router.get('/:urlCode/', async (req, res) => {
                         .from('url')
                         .where({ url_code: urlCode })
                         .build();
-    let con = await connectDB();
+    let con = connectDB();
     con.query(sqlQuery, function(error, result) {
         if (error) {
             console.log(error);
