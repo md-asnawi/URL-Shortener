@@ -1,5 +1,5 @@
 # URL-Shortener
- Web Application which converts long URL to short URL. Unable to get application deployment using Heroku on time. Given more time, it would have definitely been possible. Should have looked into AWS deployment instead because of familiarity from school course work. Nevertheless, it was a good experience and I had no regrets.
+ Web Application which converts long URL to short URL. Unable to get application deployment using Heroku on time but attempt can be seen from the heroku-deployment branch. Given more time, it would have definitely been possible. Should have looked into AWS deployment instead because of familiarity from school course work. Nevertheless, it was a good experience and I had no regrets.
 
 # Tech Stack
 - NodeJS, ExpressJS
