@@ -1,6 +1,6 @@
 {
-    "baseUrl": "http://localhost:3000",
-    "host": "localhost",
+    "baseUrl": "http://asnawi-url-shortener.herokuapp.com",
+    "host": "asnawi-url-shortener.herokuapp.com",
     "user": "root",
     "database": "url_shortener"
 }
