@@ -27,7 +27,7 @@ async function orchestrate() {
 async function callLongUrlRoute(longUrlInput) {
     let result;
 
-    const routeEndpoint = "http://asnawi-url-shortener.herokuapp.com:3000/api/url/?longUrl=" + longUrlInput;
+    const routeEndpoint = "http://asnawi-url-shortener.herokuapp.com:80/api/url/?longUrl=" + longUrlInput;
     await fetch(routeEndpoint, {
         method: "GET"
     })
@@ -44,7 +44,7 @@ function createShortUrl(longUrlInput) {
         "longUrl": longUrlInput
     }
 
-    fetch("http://asnawi-url-shortener.herokuapp.com:3000/api/url/", {
+    fetch("http://asnawi-url-shortener.herokuapp.com:80/api/url/", {
         method: "POST",
         headers: {
             'Accept': 'application/json, text/plain, */*',
